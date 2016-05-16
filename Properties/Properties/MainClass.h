@@ -6,11 +6,11 @@
 //  Copyright © 2016 Alexander Blokhin. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 @class ABObject; // вместо import
 
-@interface ViewController : UIViewController
+@interface MainClass : NSObject
 
 // по умолчанию atomic - потоконезависим, она медленнее (доступ к свойству) но хорошо подходит когда мы работаем с потоками. nonatomic - потоконезащищены, когда работаем в одном потоке. По умолчанию так же идет readwrite - доступ к геттерам и сеттерам открыт, readonly - доступ к сеттерам закрыт
 // strong - сильная ссылка - объект существует пока на него есть хотя бы одна сильная ссылка

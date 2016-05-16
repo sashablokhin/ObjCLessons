@@ -6,26 +6,27 @@
 //  Copyright © 2016 Alexander Blokhin. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainClass.h"
 #import "ABBoxer.h"
 #import "ABObject.h"
 
-@interface ViewController ()
 
-@end
+@implementation MainClass
 
-@implementation ViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    //[self initBoxer];
-    
-    //[self initStrongObject];
-    self.strongObject = nil; // освобождаем сильную ссылку и объект удаляется
-    
-    [self initCopyObject];
-    
-    NSLog(@"initObject is over");
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        //[self initBoxer];
+        
+        //[self initStrongObject];
+        self.strongObject = nil; // освобождаем сильную ссылку и объект удаляется
+        
+        [self initCopyObject];
+        
+        NSLog(@"initObject is over");
+    }
+    return self;
 }
 
 - (void)initBoxer {
@@ -69,11 +70,6 @@
 - (void)initCopyObject {
     ABObject *obj = [[ABObject alloc] init];
     self.cpyObject = obj; // создается новый объект с указанием на него сильной ссылки, объект с которого мы делали копию будет уничтожен т.к. на него больше не указывает сильная ссылка
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

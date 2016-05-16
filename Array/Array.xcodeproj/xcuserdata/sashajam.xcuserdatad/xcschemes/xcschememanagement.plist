@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>NSArray.xcscheme</key>
+		<key>Array.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>ABB0B57A1CE4B4E100BC2E76</key>
+		<key>ABB0B6311CEA04E700BC2E76</key>
 		<dict>
 			<key>primary</key>
 			<true/>

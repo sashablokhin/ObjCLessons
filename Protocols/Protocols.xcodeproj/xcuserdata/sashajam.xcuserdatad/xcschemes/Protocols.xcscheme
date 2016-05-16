@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ABB0B5A31CE5E5C800BC2E76"
-               BuildableName = "Protocols.app"
+               BlueprintIdentifier = "ABB0B6661CEA074900BC2E76"
+               BuildableName = "Protocols"
                BlueprintName = "Protocols"
                ReferencedContainer = "container:Protocols.xcodeproj">
             </BuildableReference>
@@ -32,8 +32,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ABB0B5A31CE5E5C800BC2E76"
-            BuildableName = "Protocols.app"
+            BlueprintIdentifier = "ABB0B6661CEA074900BC2E76"
+            BuildableName = "Protocols"
             BlueprintName = "Protocols"
             ReferencedContainer = "container:Protocols.xcodeproj">
          </BuildableReference>
@@ -55,8 +55,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ABB0B5A31CE5E5C800BC2E76"
-            BuildableName = "Protocols.app"
+            BlueprintIdentifier = "ABB0B6661CEA074900BC2E76"
+            BuildableName = "Protocols"
             BlueprintName = "Protocols"
             ReferencedContainer = "container:Protocols.xcodeproj">
          </BuildableReference>
@@ -74,8 +74,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ABB0B5A31CE5E5C800BC2E76"
-            BuildableName = "Protocols.app"
+            BlueprintIdentifier = "ABB0B6661CEA074900BC2E76"
+            BuildableName = "Protocols"
             BlueprintName = "Protocols"
             ReferencedContainer = "container:Protocols.xcodeproj">
          </BuildableReference>
