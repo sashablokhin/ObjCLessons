@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ABB0B5281CE46E6400BC2E76"
-               BuildableName = "Methods.app"
+               BlueprintIdentifier = "ABB0B6181CEA03C800BC2E76"
+               BuildableName = "Methods"
                BlueprintName = "Methods"
                ReferencedContainer = "container:Methods.xcodeproj">
             </BuildableReference>
@@ -32,8 +32,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ABB0B5281CE46E6400BC2E76"
-            BuildableName = "Methods.app"
+            BlueprintIdentifier = "ABB0B6181CEA03C800BC2E76"
+            BuildableName = "Methods"
             BlueprintName = "Methods"
             ReferencedContainer = "container:Methods.xcodeproj">
          </BuildableReference>
@@ -55,8 +55,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ABB0B5281CE46E6400BC2E76"
-            BuildableName = "Methods.app"
+            BlueprintIdentifier = "ABB0B6181CEA03C800BC2E76"
+            BuildableName = "Methods"
             BlueprintName = "Methods"
             ReferencedContainer = "container:Methods.xcodeproj">
          </BuildableReference>
@@ -74,8 +74,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ABB0B5281CE46E6400BC2E76"
-            BuildableName = "Methods.app"
+            BlueprintIdentifier = "ABB0B6181CEA03C800BC2E76"
+            BuildableName = "Methods"
             BlueprintName = "Methods"
             ReferencedContainer = "container:Methods.xcodeproj">
          </BuildableReference>
