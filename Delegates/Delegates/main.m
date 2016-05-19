@@ -12,7 +12,7 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        
+
         ABPatient *patient1 = [[ABPatient alloc] init];
         patient1.name = @"Vova";
         patient1.temperature = 36.6f;
