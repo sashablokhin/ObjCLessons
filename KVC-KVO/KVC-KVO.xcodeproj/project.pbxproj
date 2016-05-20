@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB469BDE1CEF3D0E00D8AD54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB469BDD1CEF3D0E00D8AD54 /* main.m */; };
+		AB469BE61CEF3DCB00D8AD54 /* ABStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = AB469BE51CEF3DCB00D8AD54 /* ABStudent.m */; };
+		AB469BE91CEF46EF00D8AD54 /* MainClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AB469BE81CEF46EF00D8AD54 /* MainClass.m */; };
+		AB469BEC1CEF510700D8AD54 /* ABGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = AB469BEB1CEF510700D8AD54 /* ABGroup.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB469BD81CEF3D0E00D8AD54 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB469BDA1CEF3D0E00D8AD54 /* KVC-KVO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "KVC-KVO"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB469BDD1CEF3D0E00D8AD54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB469BE41CEF3DCB00D8AD54 /* ABStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABStudent.h; sourceTree = "<group>"; };
+		AB469BE51CEF3DCB00D8AD54 /* ABStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABStudent.m; sourceTree = "<group>"; };
+		AB469BE71CEF46EF00D8AD54 /* MainClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainClass.h; sourceTree = "<group>"; };
+		AB469BE81CEF46EF00D8AD54 /* MainClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainClass.m; sourceTree = "<group>"; };
+		AB469BEA1CEF510700D8AD54 /* ABGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABGroup.h; sourceTree = "<group>"; };
+		AB469BEB1CEF510700D8AD54 /* ABGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABGroup.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB469BD71CEF3D0E00D8AD54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB469BD11CEF3D0E00D8AD54 = {
+			isa = PBXGroup;
+			children = (
+				AB469BDC1CEF3D0E00D8AD54 /* KVC-KVO */,
+				AB469BDB1CEF3D0E00D8AD54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB469BDB1CEF3D0E00D8AD54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB469BDA1CEF3D0E00D8AD54 /* KVC-KVO */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB469BDC1CEF3D0E00D8AD54 /* KVC-KVO */ = {
+			isa = PBXGroup;
+			children = (
+				AB469BDD1CEF3D0E00D8AD54 /* main.m */,
+				AB469BE71CEF46EF00D8AD54 /* MainClass.h */,
+				AB469BE81CEF46EF00D8AD54 /* MainClass.m */,
+				AB469BE41CEF3DCB00D8AD54 /* ABStudent.h */,
+				AB469BE51CEF3DCB00D8AD54 /* ABStudent.m */,
+				AB469BEA1CEF510700D8AD54 /* ABGroup.h */,
+				AB469BEB1CEF510700D8AD54 /* ABGroup.m */,
+			);
+			path = "KVC-KVO";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB469BD91CEF3D0E00D8AD54 /* KVC-KVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB469BE11CEF3D0E00D8AD54 /* Build configuration list for PBXNativeTarget "KVC-KVO" */;
+			buildPhases = (
+				AB469BD61CEF3D0E00D8AD54 /* Sources */,
+				AB469BD71CEF3D0E00D8AD54 /* Frameworks */,
+				AB469BD81CEF3D0E00D8AD54 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KVC-KVO";
+			productName = "KVC-KVO";
+			productReference = AB469BDA1CEF3D0E00D8AD54 /* KVC-KVO */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB469BD21CEF3D0E00D8AD54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alexander Blokhin";
+				TargetAttributes = {
+					AB469BD91CEF3D0E00D8AD54 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AB469BD51CEF3D0E00D8AD54 /* Build configuration list for PBXProject "KVC-KVO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB469BD11CEF3D0E00D8AD54;
+			productRefGroup = AB469BDB1CEF3D0E00D8AD54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB469BD91CEF3D0E00D8AD54 /* KVC-KVO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB469BD61CEF3D0E00D8AD54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB469BEC1CEF510700D8AD54 /* ABGroup.m in Sources */,
+				AB469BE61CEF3DCB00D8AD54 /* ABStudent.m in Sources */,
+				AB469BDE1CEF3D0E00D8AD54 /* main.m in Sources */,
+				AB469BE91CEF46EF00D8AD54 /* MainClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB469BDF1CEF3D0E00D8AD54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AB469BE01CEF3D0E00D8AD54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AB469BE21CEF3D0E00D8AD54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB469BE31CEF3D0E00D8AD54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB469BD51CEF3D0E00D8AD54 /* Build configuration list for PBXProject "KVC-KVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB469BDF1CEF3D0E00D8AD54 /* Debug */,
+				AB469BE01CEF3D0E00D8AD54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB469BE11CEF3D0E00D8AD54 /* Build configuration list for PBXNativeTarget "KVC-KVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB469BE21CEF3D0E00D8AD54 /* Debug */,
+				AB469BE31CEF3D0E00D8AD54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB469BD21CEF3D0E00D8AD54 /* Project object */;
+}
